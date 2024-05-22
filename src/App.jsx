@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <SectionWrapper
-        title="FitHub AI based Fitness App"
+        title="FitHub: The AI based Fitness App"
         description="Welcome to our fitness app! We are dedicated to helping you achieve your
         fitness goals through innovative features and personalized
         recommendations."
@@ -24,12 +24,7 @@ const App = () => {
         reverse
       />
       <Features />
-      <SectionWrapper
-        title="Deployment"
-        description="FitHub is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
-        mockupImg={assets.four}
-        reverse
-      />
+
       <SectionWrapper
         title="Creative way to showcase the app"
         description="Explore our app's smart camera feature, personalized diet recommendations, and customized exercise routines to optimize your fitness journey."
@@ -37,20 +32,7 @@ const App = () => {
         banner="banner02"
       />
 
-      {/* <Download /> */}
 
-      <div className="flex-col items-center justify-center px-4 py-2 text-center bg-primary banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>
-          Made with 💖 by{' '}
-          <a
-            href="https://github.com/FALAK097/FitnessApp"
-            target="_blank"
-            rel="noreferrer"
-            className="bold">
-            FitHub Team
-          </a>
-        </p>
-      </div>
     </>
   );
 };
